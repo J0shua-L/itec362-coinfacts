@@ -1,0 +1,87 @@
+table, th, td {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Puts borders around each cell of my table*/
+
+h1.LCF {
+    color: blue;
+    float: left;
+}
+/* Makes the h1 class "LCF" blue (this is the class used for "Lazenby Coin Facts"*/
+h1{
+  float: left;
+}
+
+img.logo {
+  float: left;
+  height: 75px;
+  width: 75px;
+}
+
+
+p {
+  
+    text-align: center;
+    border-style: inset;
+    
+}
+/*makes p an inset text box*/
+
+p.footer {
+    border-style: none;
+    font-style: italic;
+}
+/* Makes the footer have no border and be italicized*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a.active{
+    background-color: #37abb8;
+  }
+  
+  li a:hover {
+    background-color: #37abb8;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+  }
+
+  h2{
+    text-align: center;
+    
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  button{
+    display: block;
+    margin: auto;
+    
+  }
