@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Feedback</title>
+   <meta charset="utf-8">
+   <meta name="description" content="Facts about coins">
+   <meta name="keywords" content="coins, Germany, value, mintage">
+   <meta name="author" content="Joshua Lazenby">
+   <link rel="stylesheet" href="coinstyle.css">
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7NN7XSK1X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7NN7XSK1X');
+</script>
+
+<style>
+    .form {
+        display: grid;
+        place-items: center;
+
+    }
+
+    input.comment {
+        width: 200px;
+        height: 100px;
+        
+    }
+</style>
+
+  
+<header>
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a class="active" href="feedback.html">Feedback</a></li>
+         <li><a href="germany.html">Germany</a></li>
+         <li><a href="US.html">US</a></li>
+         <li><a href="UK.html">UK</a></li>
+      </ul>
+   </nav>
+   <img class=logo src="20pf.jpg" alt="20pf" width="80" height="64">
+   <h1>Welcome to </h1> <br>
+   <h1 class="LCF"> Lazenby Coin Facts!</h1>
+</header>
+<br><br><br><br><br><br>
+
+<main>
+   <h2>Feedback</h2>
+   <p>Feel free to use the form below to address any questions, comments, concerns, or ideas for this webpage! Remeber to include your e-mail!</p> 
+<div class="form">  
+    <form action="mailto:lazenbyjoshua0@gmail.com" method="get">
+        <label for="name">Enter your first and last name here:</label><br>
+        <input type="text" id="name" placeholder="John Smith" name="name"><br>
+        <br>
+        <label for="email">Enter e-mail here:</label><br>
+        <input type="text" id="email" placeholder="JohnSmith@email.com" name="email"><br>
+        <br>
+        <label for="comment">Enter your feeback here:</label><br>
+        <input class="comment" type="text" id="comment" name="comment"><br>
+        <br>
+        <input type="submit" value="Submit">
+     </form>
+</div>
+</main>
+<br>
+<br>
+<br>
+
+<h3>Social Media Share</h3>
+<button id="share-facebook">Share on Facebook</button>
+<button id="share-twitter">Share on Twitter</button>
+
+
+<footer> <p class="footer">Made by Joshua Lazenby!</p> </footer>
+<script src="script.js"></script>
+</html>
